@@ -2,10 +2,29 @@
         margin: 0;
         padding: 0;
         box-sizing: border-box;  
+        font-family: var(--font-family);
+        
 }
 
-
+a{
+        text-decoration: none;
+        color: #000;
+       
+}
 img{
         max-width: 100%;
 }
-
+h1{
+        font: var(--h1);
+}
+span{
+font: var(--span-sm);
+}
+:root{
+        /* fonte */
+        --font-family:"Smooch Sans", serif;
+        --h1:500 3.5rem/135% var(--font-family);
+        --lg-texte:300 2.5rem/120% var(--font-family);
+        --span-sm:400 1.5rem/125% var(--font-family);
+     
+}

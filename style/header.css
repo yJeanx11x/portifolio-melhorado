@@ -12,9 +12,10 @@ header {
 
   h1 {
     padding-block: 1rem;
+   
   }
   span{
-font-size: 1.5rem;
+font: var(--lg-texte);
   }
 
 }
