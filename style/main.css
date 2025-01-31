@@ -1,0 +1,8 @@
+main {
+  max-width: 80rem;
+
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}

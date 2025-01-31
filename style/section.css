@@ -1,0 +1,25 @@
+section{
+        img{
+                
+             
+                border-radius: 3rem;
+                
+        }
+        .socialnetwork {
+                margin-top: -2.3rem;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                gap: 1rem;
+                img{
+                        width: 2rem;
+                        height: 4rem;
+                
+            }
+            
+        }     
+           
+        
+}
+
+
