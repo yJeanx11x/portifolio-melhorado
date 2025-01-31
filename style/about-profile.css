@@ -29,6 +29,7 @@ span{
     
     font-size: 1.8rem;
     color: aqua;
+    text-shadow: 0.30px 1px 30px black;
   }
   0%{
     font-size: 1.5rem;
