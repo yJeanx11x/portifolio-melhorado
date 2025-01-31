@@ -1,0 +1,19 @@
+.about-profile {
+  padding-block: 4rem;
+justify-content: center;
+width: 100%;
+height: auto;
+border: 1px solid;
+img {
+    width: 30px; 
+    padding: 8px;
+
+}
+span{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+
+  }
+}
