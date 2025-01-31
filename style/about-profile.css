@@ -3,9 +3,8 @@
 justify-content: center;
 width: 100%;
 height: auto;
-border: 1px solid;
 img {
-    width: 30px; 
+    width: 40px; 
     padding: 8px;
 
 }
@@ -14,6 +13,26 @@ span{
         justify-content: center;
         align-items: center;
         align-content: center;
-
+       
+        & a{
+          letter-spacing:3px;
+          padding-block: 0.4rem;
+         
+        }
+        :hover{
+      animation: to_fall 0.8s  both infinite alternate;
+        }      
+  }
+}
+@keyframes to_fall {
+  100%{
+    
+    font-size: 1.8rem;
+    color: aqua;
+  }
+  0%{
+    font-size: 1.5rem;
+    color: #000;
+    
   }
 }
