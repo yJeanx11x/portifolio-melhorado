@@ -3,6 +3,7 @@
 justify-content: center;
 width: 100%;
 height: auto;
+
 img {
     width: 40px; 
     padding: 8px;
@@ -21,6 +22,7 @@ span{
         }
         :hover{
       animation: to_fall 0.8s  both infinite alternate;
+ 
         }      
   }
 }

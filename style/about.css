@@ -1,0 +1,19 @@
+.about {
+  padding-block: 15rem;
+  margin: auto;
+
+  & h1 {
+    margin: auto;
+    width: 50rem;
+    text-align: left;
+  }
+  p {
+    font-size: 20pt;
+    text-align: left;
+    margin: auto;
+    width: 50rem;
+    
+  
+
+  }
+}
