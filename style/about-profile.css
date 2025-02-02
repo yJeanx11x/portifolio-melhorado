@@ -1,9 +1,12 @@
 .about-profile {
-  padding-block: 4rem;
-justify-content: center;
-width: 100%;
-height: auto;
 
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+  align-items: center;
+
+  padding-block: 4rem;
 img {
     width: 40px; 
     padding: 8px;

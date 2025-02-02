@@ -2,18 +2,54 @@
   padding-block: 15rem;
   margin: auto;
 
-  & h1 {
+  h1 {
     margin: auto;
     width: 50rem;
     text-align: left;
   }
+
   p {
+    padding: 1rem;
+    margin: auto;
+    width: 500px;
     font-size: 20pt;
     text-align: left;
-    margin: auto;
-    width: 50rem;
-    
-  
+  }
+}
 
+
+@media (max-width: 1024px) {
+  .about {
+    padding-block: 10rem;
+  }
+
+  .about h1 {
+    width: 80%;
+    text-align: center;
+  }
+
+  .about p {
+    width: 80%;
+    font-size: 18pt;
+    text-align: justify;
+  }
+}
+
+
+@media (max-width: 768px) {
+  .about {
+    padding-block: 5rem;
+  }
+
+  .about h1 {
+    width: 90%;
+    font-size: 22px;
+    text-align: center;
+  }
+
+  .about p {
+    width: 90%;
+    font-size: 16pt;
+    text-align: justify;
   }
 }
