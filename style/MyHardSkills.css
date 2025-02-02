@@ -1,31 +1,39 @@
 .MyHardSkills {
-  display: flex;
   justify-content: center;
   align-items: center;
+  display: grid;
 
-  .container {
+  & .container {
     width: 700px;
-    height: 600px;
+   
     padding: 2rem;
-
-    border: 1px solid;
     gap: 20px;
-    justify-content: center;
-    display: grid;
-grid-template-columns: repeat(3,1fr);
-}
-  .box {
-    width: 200px;
-    height: 200px;
-    display: flex;
-    justify-content: center;
-    border: 1px solid;
-    border-radius: 15%;
 
-    img {
+    display: flex;
+    justify-content: space-between;
+
+    & h1:nth-child(1) {
       display: flex;
-      justify-content: center;
-      width: 130px;
+      padding-block: 15px;
     }
   }
+
+  .box {
+    width: 200px;
+    height: 180px;
+    border-radius: 15px;
+    border: 1px solid rgba(0, 255, 255, 0.842);
+    margin-top: 15px;
+  
+    & img {
+      margin: auto;
+      width: 98px;
+      padding-block: 1rem;
+    }
+  
+  }
+
+}
+.block {
+  opacity: 20%;
 }
