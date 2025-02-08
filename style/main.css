@@ -4,34 +4,58 @@ main {
   justify-content: center;
   align-items: center;
   text-align: center;
+
 }
 
 .dark_mode {
   width: 50px;
   height: 50px;
+
   display: flex;
   margin-left: auto;
-img{
-  padding: 8px;
-}
-}
-.change_body_color{
-  animation: test 1.5s ease both alternate;
 
-background-color: hsla(0, 0%, 0%, 0.76);
-color: #fffffff3;
-a{
-  color: rgba(255, 255, 255, 0.562);
+  background-image: url(../assets/icons/moon.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
 
- } 
+  animation: go_up 2s ease both;
 }
-@keyframes test{
+
+
+.trocarParaSol {
+
+  & .dark_mode {
+    animation: go_up 2s ease both;
+     background-image: url(../assets/icons/sun.svg);
+     background-repeat: no-repeat;
+     background-size: cover;
+     
+    }
+ }
+.change_body_color {
+  /* animation: test 1.5s ease both alternate; */
+ 
+
+  background-color: hsla(0, 0%, 0%, 0.76);
+  color: #fffffff3;
+  a {
+    color: rgba(255, 255, 255, 0.562);
+  }
+}
+@keyframes test {
+  0% {
+    transform: translate(950px);
+    color: white;
+    a {
+      color: white;
+    }
+  }
+}
+
+@keyframes go_up{
   0%{
-transform: translate(950px);
- color: white;
- a{
-  color: white;
-
- } 
+  transform: translateY(-30px);
 }
+
+
 }
