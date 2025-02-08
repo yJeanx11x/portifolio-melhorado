@@ -3,40 +3,47 @@
   align-items: center;
   display: grid;
 
+
   & .container {
     width: 700px;
-   
     padding: 2rem;
     gap: 20px;
 
     display: flex;
     justify-content: space-around;
     align-items: center;
+
     & h1:nth-child(1) {
       display: flex;
       padding-block: 15px;
+      
     }
   }
 
   .box {
     width: 200px;
     height: 180px;
+
     border-radius: 15px;
-    border: 1px solid rgba(0, 255, 255, 0.842);
+    border: 2.5px solid rgba(0, 255, 255, 0.842);
+    border-style: dashed;
     margin-top: 15px;
+
+    
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+
     & img {
       margin: auto;
       width: 98px;
       padding-block: 1rem;
     }
-  
   }
-
 }
+
+ 
 
 @media (max-width: 768px) {
   .MyHardSkills {

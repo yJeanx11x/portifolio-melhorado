@@ -4,6 +4,7 @@ header {
   text-align: center;
   padding-block: 2.5rem;
 
+
   img {
     width: 10rem;
     height: 10rem;
@@ -13,10 +14,22 @@ header {
 
   h1 {
     padding-block: 1rem;
-   
   }
   span{
 font: var(--lg-texte);
+
+}
+
+}
+
+@keyframes blink{
+
+  0%{
+    border-right: none;
   }
 
+  50%{
+width: 40px;
+
+  }
 }
