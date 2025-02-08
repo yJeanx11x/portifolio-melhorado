@@ -19,6 +19,7 @@ main {
   background-size: cover;
 
   animation: go_up 2s ease both;
+  cursor: pointer;
 }
 
 
