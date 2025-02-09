@@ -7,13 +7,38 @@
   align-items: center;
 
   padding-block: 4rem;
+
+  span:nth-child(1){
+    animation: trail 0.5s backwards ;    
+
+  }
+  span:nth-child(2){
+    animation: trail 0.6s backwards ;    
+
+  }
+  span:nth-child(3){
+    animation: trail 0.7s backwards ;    
+
+  }
+  span:nth-child(4){
+    animation: trail 0.8s backwards ;    
+
+  }
+  span:nth-child(5){
+    animation: trail 0.9s backwards ;    
+
+  }
 img {
     width: 40px; 
     padding: 8px;
 
 }
+
 span{
-        display: flex;
+
+  
+
+  display: flex;
         justify-content: center;
         align-items: center;
         align-content: center;
@@ -27,7 +52,9 @@ span{
       animation: to_fall 0.8s  both infinite alternate;
  
         }      
+  
   }
+  
 }
 @keyframes to_fall {
   100%{
@@ -41,4 +68,13 @@ span{
     color: #000;
     
   }
+}
+
+@keyframes trail{
+from{
+  transform: translateY(950px);
+  opacity: 0.5;
+  text-shadow: 0.200px 0.50px 8px  black;
+}
+
 }
