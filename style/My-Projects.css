@@ -1,0 +1,29 @@
+.My-Projects{
+display: flex;
+justify-content: center;
+align-items: center;
+padding-bottom: 1rem;
+& .card-projects{
+
+width: 350px;
+height: 450px ;
+
+background-color: rgba(0, 255, 255, 0.541);
+border-radius: 8px;
+
+
+& img{
+        width: 100%;
+        padding: 1rem;
+        border-radius: 30px;
+}
+& .language{
+        padding-block: 1rem;
+        width: 280px;
+        display: contents;
+       img{
+        width: 70px;
+        }
+}
+}
+}
