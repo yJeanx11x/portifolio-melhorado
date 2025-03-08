@@ -5,7 +5,7 @@
         align-items: center;
         gap: 1rem;
         margin: auto;
-        
+       
         
        & img{
                 width: 2rem;
@@ -28,7 +28,8 @@
                 animation: jump_ONCE 3.5s ease forwards alternate;
 
               }
-
+              
+              
               
         img {
     border-radius: 3rem;
@@ -55,5 +56,13 @@ transform: translateY(0px);
   100%{
     transform: translateY(0px);
 
+  }
+}
+@keyframes jump{
+  0%{
+    width: 2.1rem;
+  }
+  100%{
+    width: 2.3rem;
   }
 }
