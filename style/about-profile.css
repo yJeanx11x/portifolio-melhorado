@@ -71,10 +71,13 @@ span{
 }
 
 @keyframes trail{
-from{
+0%{
   transform: translateY(950px);
   opacity: 0.5;
   text-shadow: 0.200px 0.50px 8px  black;
+}
+60%{
+  opacity: 0;
 }
 
 }

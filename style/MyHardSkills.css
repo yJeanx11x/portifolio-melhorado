@@ -2,6 +2,8 @@
   justify-content: center;
   align-items: center;
   display: grid;
+  padding-block: 15rem;
+
   animation: appear linear;
   animation-timeline: view() ;
   animation-range: entry 0% cover 30%  ;
