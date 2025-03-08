@@ -17,6 +17,8 @@ right: 5px;
 cursor: pointer;
 padding: 8px;
 
+animation: sideways_movement 1s infinite alternate-reverse;
+
 }
 
 html{
@@ -77,4 +79,12 @@ html{
 
 }
 
+@keyframes sideways_movement{
 
+0%{
+  width: 45px;
+  
+}
+
+
+}
