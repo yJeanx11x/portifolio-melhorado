@@ -4,24 +4,22 @@ main {
   justify-content: center;
   align-items: center;
   text-align: center;
-
 }
-.home{
+.home {
   width: 40px;
   height: 30px;
- 
+
   position: fixed;
   z-index: 1;
-bottom: 18px;
-right: 5px;
-cursor: pointer;
-padding: 8px;
+  
+  cursor: pointer;
 
-animation: sideways_movement 1s infinite alternate-reverse;
+  padding: 8px;
 
+  animation: sideways_movement 1s infinite alternate-reverse;
 }
 
-html{
+html {
   scroll-behavior: smooth;
 }
 
@@ -40,20 +38,16 @@ html{
   cursor: pointer;
 }
 
-
 .trocarParaSol {
-
   & .dark_mode {
     animation: go_up 2s ease both;
-     background-image: url(../assets/icons/sun.svg);
-     background-repeat: no-repeat;
-     background-size: cover;
-     
-    }
- }
+    background-image: url(../assets/icons/sun.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}
 .change_body_color {
   /* animation: test 1.5s ease both alternate; */
- 
 
   background-color: hsla(0, 0%, 0%, 0.76);
   color: #fffffff3;
@@ -71,20 +65,26 @@ html{
   }
 }
 
-@keyframes go_up{
-  0%{
-  transform: translateY(-30px);
+@keyframes go_up {
+  0% {
+    transform: translateY(-30px);
+  }
 }
 
+@keyframes sideways_movement {
+  0% {
+    width: 40px;
+  }
+  30%{
+    width: 42px;
 
-}
+  }
+  60%{
+    width: 43px;
 
-@keyframes sideways_movement{
+  }
+  100%{
+    width: 45px;
 
-0%{
-  width: 45px;
-  
-}
-
-
+  }
 }
