@@ -1,14 +1,15 @@
 .My-Projects {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding-bottom: 1rem;
-  padding-block: 5rem;
+  /* display: contents; */
+  padding-block: 15rem;
 
 
   & .card-projects {
     width: 350px;
     height: 580px;
+    
+    margin: auto;
+    margin-top: 1.5rem;
+
 
     background-color: rgb(67, 214, 202);
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
@@ -24,57 +25,51 @@
       padding-block: 1rem;
       width: 280px;
       margin: auto;
-      
+
       img {
-              width: 70px;
+        width: 70px;
+      }
+    }
+    & .projectAccess {
+      .access {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 3px;
+
+        background-color: rgb(53, 168, 159);
+        margin: auto;
+        margin-top: 1rem;
+
+        width: 11.25rem;
+        height: 2.5rem;
+        border: 1px solid;
+
+        img {
+          width: 55px;
         }
-}
-& .projectAccess {
+        h2 {
+          color: #fff;
+        }
 
-  .access{
-
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 3px;
-
-background-color: rgb(53, 168, 159);
-    margin: auto;
-    margin-top: 1rem;
-
-    width:11.25rem;
-    height: 2.5rem;
-    border: 1px solid ;
-
-    img{
-      width: 55px;
-    }
-    h2{
-      color: #fff;
-    }
- 
-    :hover{
-     animation: jump 0.8s both infinite alternate;
-    } 
-   
-  }
+        :hover {
+          animation: jump 0.8s both infinite alternate;
+        }
+      }
     }
   }
 }
 
-@keyframes jump{
-  0%{
+@keyframes jump {
+  0% {
     font-size: 1.5rem;
     transition: 1s ease;
-    
   }
-  100%{
+  100% {
     font-size: 1.8rem;
     transition: 1s ease;
-    
+
     text-shadow: 0px -1px 18px rgb(0, 0, 0);
     color: #fff;
-
   }
 }

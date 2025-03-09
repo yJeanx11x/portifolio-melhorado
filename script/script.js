@@ -9,3 +9,10 @@ dark_mode.addEventListener('click',()=>{
         changeBodyColor.classList.toggle('trocarParaSol')
         changeBodyColor.classList.toggle('change_body_color')
 })
+
+//Animação de Scroll 
+window.sr=ScrollReveal({reset:true})
+sr.reveal('.about',{duration:2000})
+sr.reveal('.MySoftskills',{duration:2000})
+sr.reveal('.MyHardSkills',{duration:2000})
+sr.reveal('.My-Projects',{duration:2000})
