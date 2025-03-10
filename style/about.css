@@ -1,5 +1,5 @@
 .about {
-  padding-block: 15rem;
+  padding-block: 17rem;
   margin: auto;
 
   h1 {
@@ -11,10 +11,12 @@
   p {
     padding: 1rem;
     margin: auto;
-    width: 500px;
+    width: 600px;
     font-size: 20pt;
     text-align: left;
+
   }
+
 }
 
 
