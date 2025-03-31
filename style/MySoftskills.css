@@ -3,7 +3,7 @@
   flex-direction: column;
   justify-content: center;
   gap: 3.5rem;
-  padding-block: 15rem;
+  padding-block: 20rem;
 
 
 
@@ -20,11 +20,19 @@
     width: 250px;
     height: 250px;
 
-    border: 2.5px solid rgb(67, 214, 202);
-
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
     animation: appear linear;
     animation-timeline: view() ;
     animation-range:0% 40%  ;
+
+    h1{
+        font-size: 20pt;
+        font-weight: 700;
+    }
+    p{
+        font-size: 16pt;
+
+    }
 }
 
 }

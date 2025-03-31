@@ -3,33 +3,25 @@ header {
   justify-content: center;
   text-align: center;
   padding-block: 2.5rem;
-
-
+  
+  
+  
   img {
     width: 10rem;
     height: 10rem;
     object-fit: cover;
     border-radius: 50%;
+    border: 1px solid;
   }
-
+  
+  
   h1 {
     padding-block: 1rem;
   }
   span{
-font: var(--lg-texte);
-
-}
-
-}
-
-@keyframes blink{
-
-  0%{
-    border-right: none;
+    font: var(--lg-texte);
+    
   }
-
-  50%{
-width: 40px;
-
-  }
+  
 }
+
